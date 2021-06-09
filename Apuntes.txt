@@ -1,0 +1,110 @@
+Es7 me sirve para usar extensiones del lenguaje react.js 
+y luego autocompletarlas para poder dedicarme a la logica
+mas que a armas el caparazon de las plantillas ya sea de declarar 
+funcion , clase , importaciones y etc.
+
+Uso boostswatch se puede encontrar una serie 
+de temas personalizados para usar con el framework boostrap.
+
+
+React-Bootstrap  reemplaza a Booststrap JavaScript.
+Cada componente se ha creado desde cero como un verdadero
+componente de React.
+
+Vamos a incluir a react-bootstrap en nuestro proyectos
+	https://react-bootstrap.github.io/getting-started/introduction
+
+Vamos a trabajar las fuentes de los textos de aqui
+	https://cdnjs.com/
+
+
+
+
+Para usar el router 
+	E:\JAIRO\Cursos de la Universidad\CICLO 9\ReactandDjangoUdemy\Ecommerce\frontend>npm install react-router-dom
+
+
+
+
+E:\JAIRO\Cursos de la Universidad\CICLO 9\ReactandDjangoUdemy\Ecommerce\frontend>npm install react-bootstrap
+
+
+
+
+Solucion al problemas de a descendente 
+
+https://stackoverflow.com/questions/55625431/warning-validatedomnesting-a-cannot-appear-as-a-descendant-of-a
+
+
+
+
+
+
+Leer literatura sobre 
+
+		JEGO y como funciona ginkgo , ojito Ginkgo coloca nuestro proyecto en multiples aplicaciones .
+
+Redux Pattern 
+	
+		Reduc -----> Components ---->--------------->
+		 |					    |	
+		 |					    Actions  <-----> Server 
+		 |					    |
+		 -----<--------------------------------<----
+
+
+Estados 
+		A nivel de componentes 
+		Estado de aplicacion 
+		
+
+
+ 
+
+
+
+Intercambiar los proyectos --- eso te da una semana  ... Cheque list 
+
+Documento adaptado version    1.0
+
+	Orden de el indice que dio la profesora ... 
+
+
+
+
+
+
+
+
+Quien va representar al equipo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
