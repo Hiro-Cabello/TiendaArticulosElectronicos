@@ -1,3 +1,11 @@
+/*Ojo el super usuario de este proyecto es */
+	usuario:   jairo
+	password:  jairo2021
+
+
+
+
+
 Es7 me sirve para usar extensiones del lenguaje react.js 
 y luego autocompletarlas para poder dedicarme a la logica
 mas que a armas el caparazon de las plantillas ya sea de declarar 
@@ -76,9 +84,38 @@ Documento adaptado version    1.0
 
 
 
-Quien va representar al equipo 
 
 
+Notas a chequear : 
+
+home: 1 El acceso a XMLHttpRequest en 'http://127.0.0.1:8000/api/products/' 
+desde el origen 'http: // localhost: 3000' ha sido bloqueado por la política 
+CORS: No 'Access-Control-Allow-Origin 'encabezado está presente en el recurso 
+solicitado.
+
+pip instalar django-cors-headers
+Una aplicación de Django que agrega encabezados de intercambio de recursos de origen
+cruzado (CORS) a las respuestas. Esto permite solicitudes en el navegador 
+a su aplicación Django desde otros orígenes.
+
+
+
+Ojo 
+cabe mencionar que redux no es exclusivo de react 
+pues tambien se puede usar con angular ,etc
+Vamos a instalar redux al paquete de librerias que estamos instalando 
+
+
+
+E:\JAIRO\Cursos de la Universidad\CICLO 9\ReactandDjangoUdemy\Ecommerce\frontend>npm install redux react-redux redux-thunk redux-devtools-extension
+Thunk solo nos permite realizar solicitudes 
+asincrónicas de nuestros creadores de acciones.
+
+
+Así que redux dev tools, extensions.
+Y esta es esa biblioteca que realmente nos
+permitirá conectar nuestra tienda a esa
+extensión del navegador.
 
 
 

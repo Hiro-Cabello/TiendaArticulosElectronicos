@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'corsheaders' ,
     'rest_framework',
 
     'base.apps.BaseConfig',
@@ -46,6 +46,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+
+    'corsheaders.middleware.CorsMiddleware' ,#Para hacer peticiones cruzadas
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -124,3 +127,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+#Configuracion necesaria para poder trabajar con imagenes y con archivos estaticos
+MEDIA_URL='/images/'
+STATICFILES_DIRS=[
+    BASE_DIR/ 'static'
+]
+MEDIA_ROOT='static/images'
+#end
+
+
+
+
+
+CORS_ALLOW_ALL_ORIGINS=True

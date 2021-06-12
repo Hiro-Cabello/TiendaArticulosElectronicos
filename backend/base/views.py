@@ -8,6 +8,18 @@ from rest_framework.decorators import api_view
 # Create your views here.
 
 
+#Para la serializacion 
+from .serailizers import ProductSerializer
+
+
+
+#Vamos a extraer los datos que estan en mi base de datos y no la que esta en el archivo products.py
+from .models import Product
+
+
+
+#Decorador que toma una lista de metodos HTTP 
+#a los que debe responder su vista.
 @api_view(['GET'])
 def getRoutes(request):
     routes=[
@@ -34,17 +46,21 @@ def getRoutes(request):
 
 @api_view(['GET'])
 def getProducts(request):
-    return Response(products)
+    products=Product.objects.all()#Aqui es donde hago la llamada a la base de datos   
+    serializer=ProductSerializer(products,many=True)
+    return Response(serializer.data)
     #return JsonResponse(products,safe=False)
 
 @api_view(['GET'])
 def getProduct(request,pk):
-    product=None
-    for i in products:
-        if i['_id']==pk:
-            product=i
-            break
-    return Response(product)
+    product=Product.objects.get(_id=pk)
+    serailizer = ProductSerializer(product,many=False)#Si se aplica a una relación a muchos, debe establecer este argumento en True
+    #product=None
+    #for i in products:
+    #    if i['_id']==pk:
+    #        product=i
+    #        break
+    return Response(serailizer.data)
 
 
 
